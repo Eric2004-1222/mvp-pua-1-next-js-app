@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #2f2a32;
+  background: #fffaf9;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 12% 8%, rgba(255, 217, 223, 0.7), transparent 28rem),
+    radial-gradient(circle at 88% 0%, rgba(191, 234, 219, 0.55), transparent 24rem),
+    linear-gradient(180deg, #fff7f8 0%, #fffaf9 38%, #f7fbf8 100%);
+}
+
+textarea,
+input,
+select {
+  outline: none;
+}
+
+.focus-soft:focus {
+  border-color: #ff8da1;
+  box-shadow: 0 0 0 4px rgba(255, 141, 161, 0.16);
+}
