@@ -89,9 +89,9 @@ export function HomeLiveTopics() {
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-sm font-semibold text-blush-600">此刻大家正在聊</p>
-          <h2 className="mt-2 text-2xl font-bold">这不是静态介绍页，而是有人正在发生的关系日常</h2>
+          <h2 className="mt-2 text-2xl font-bold">这里不是空白页面，而是真的有人在认真讨论关系里的小事</h2>
           <p className="mt-3 max-w-2xl text-sm leading-7 text-ink/60">
-            现在先用编辑生成的关系日常做讨论氛围，点进去可以看到不同视角的温和探讨。后面有真实互动后，可以直接替换成真实数据流。
+            有人讲异地怎么和好，有人聊同居后怎么重新分工，也有人只是先说一句“抱抱你”。你可以先看看，再决定要不要开口。
           </p>
         </div>
         <button
@@ -145,7 +145,7 @@ export function HomeLiveTopics() {
               href="/cases"
               className="mt-5 inline-flex w-full items-center justify-center rounded-full bg-ink px-4 py-3 text-sm font-semibold text-white transition hover:bg-ink/90"
             >
-              浏览匿名案例库
+              看看更多真实讨论
             </Link>
           </div>
         </aside>

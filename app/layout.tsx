@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const navItems = [
-  { href: "/cases", label: "案例库" },
   { href: "/posts", label: "故事广场" },
   { href: "/create", label: "写下心事" },
   { href: "/couple", label: "私密空间" },
+  { href: "/cases", label: "案例库" },
 ];
 
 export default async function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
