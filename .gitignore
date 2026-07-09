@@ -7,4 +7,6 @@ coverage
 *.log
 .vercel
 .pnpm-store
+.open-next
+.wrangler
 .DS_Store

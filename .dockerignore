@@ -1,0 +1,13 @@
+.git
+.gitignore
+.next
+.open-next
+.wrangler
+node_modules
+npm-debug.log*
+pnpm-debug.log*
+.env.local
+.env*.local
+.DS_Store
+README.md
+CLOUDFLARE_WORKERS_DEPLOY.md
