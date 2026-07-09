@@ -11,6 +11,7 @@ FROM base AS builder
 RUN apk add --no-cache libc6-compat
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
+RUN mkdir -p public
 RUN corepack enable && corepack prepare pnpm@10.12.4 --activate && pnpm build
 
 FROM node:20-alpine AS runner
